@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>User Management</title>
+  </head>
+  <body>
+    <section class="add-user-section">
+      <h1>Add new User</h1>
+      <form id="userForm">
+        <div class="input-field">
+          <label for="RollNoInput">Enter RollNo:</label>
+          <input
+            type="text"
+            id="RollNoInput"
+            placeholder="Enter Your RollNo"
+            required
+          />
+        </div>
+
+        <div class="input-field">
+          <label for="nameInput">Enter Name:</label>
+          <input
+            type="text"
+            id="nameInput"
+            placeholder="Enter Your Name"
+            required
+          />
+        </div>
+
+        <div class="input-field">
+          <label for="emailInput">Enter Email:</label>
+          <input
+            type="text"
+            id="emailInput"
+            placeholder="Enter Your Email"
+            required
+          />
+        </div>
+        <button type="button" class="button">Add User</button>
+      </form>
+    </section>
+    <h1>All users</h1>
+    <section class="user-list-section"></section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
